@@ -1,0 +1,50 @@
+4.0K	./cloud
+24K	.
+Filesystem                 Size  Used Avail Use% Mounted on
+udev                        16G     0   16G   0% /dev
+tmpfs                      3.2G  2.2M  3.2G   1% /run
+/dev/mapper/vgubuntu-root  231G   55G  165G  25% /
+tmpfs                       16G  311M   16G   2% /dev/shm
+tmpfs                      5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                       16G     0   16G   0% /sys/fs/cgroup
+/dev/loop0                 128K  128K     0 100% /snap/bare/5
+/dev/loop3                  64M   64M     0 100% /snap/core20/2434
+/dev/loop1                 318M  318M     0 100% /snap/code/179
+/dev/loop2                  56M   56M     0 100% /snap/core18/2846
+/dev/loop4                 320M  320M     0 100% /snap/code/184
+/dev/loop6                 347M  347M     0 100% /snap/gnome-3-38-2004/119
+/dev/loop7                  64M   64M     0 100% /snap/core20/2496
+/dev/loop5                 165M  165M     0 100% /snap/gnome-3-28-1804/198
+/dev/loop13                 92M   92M     0 100% /snap/gtk-common-themes/1535
+/dev/loop16                166M  166M     0 100% /snap/mysql-workbench-community/13
+/dev/loop12                517M  517M     0 100% /snap/gnome-42-2204/202
+/dev/loop19                 13M   13M     0 100% /snap/kubectl/3512
+/dev/loop11                350M  350M     0 100% /snap/gnome-3-38-2004/143
+/dev/loop20                184M  184M     0 100% /snap/postman/305
+/dev/loop10                1.1G  1.1G     0 100% /snap/intellij-idea-community/572
+/dev/loop14                 13M   13M     0 100% /snap/kubectl/3546
+/dev/loop15                1.1G  1.1G     0 100% /snap/intellij-idea-community/588
+/dev/loop8                  74M   74M     0 100% /snap/core22/1748
+/dev/loop17                184M  184M     0 100% /snap/postman/303
+/dev/loop9                  74M   74M     0 100% /snap/core22/1722
+/dev/loop21                 13M   13M     0 100% /snap/snap-store/1113
+/dev/loop23                 13M   13M     0 100% /snap/snap-store/1216
+/dev/loop22                 45M   45M     0 100% /snap/snapd/23771
+/dev/loop18                506M  506M     0 100% /snap/gnome-42-2204/176
+/dev/loop24                 56M   56M     0 100% /snap/core18/2855
+/dev/loop25                102M  102M     0 100% /snap/teams-for-linux/741
+/dev/loop27                 45M   45M     0 100% /snap/snapd/23545
+/dev/loop26                102M  102M     0 100% /snap/teams-for-linux/747
+/dev/nvme0n1p2             1.4G  465M  852M  36% /boot
+/dev/nvme0n1p1             511M  6.1M  505M   2% /boot/efi
+tmpfs                      3.2G   48K  3.2G   1% /run/user/1000
+total 28
+drwxrwxr-x 2 nashtech nashtech 4096 Mar 17 22:57 cloud
+-rw-rw-r-- 1 nashtech nashtech    6 Mar 17 12:47 first.txt
+-rw-rw-r-- 2 nashtech nashtech   10 Mar 17 12:44 hardlink2
+-rw-rw-r-- 2 nashtech nashtech   10 Mar 17 12:44 hard.txt
+-rw-rw-r-- 1 nashtech nashtech   53 Mar 16 23:47 new.txt
+-rw------- 1 nashtech nashtech 2584 Mar 17 23:10 nohup.out
+lrwxrwxrwx 1 nashtech nashtech    8 Mar 17 12:15 softlink -> soft.txt
+lrwxrwxrwx 1 nashtech nashtech    8 Mar 17 12:25 softlink1 -> softlink
+-rw-rw-r-- 1 nashtech nashtech   18 Mar 17 12:44 soft.txt

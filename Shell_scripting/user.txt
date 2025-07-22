@@ -1,0 +1,5 @@
+tappu:x:1002:1002::/home/tappu:/bin/sh
+bhidhe:x:1003:1003::/home/bhidhe:/bin/sh
+aayush:x:1004:1004::/home/aayush:/bin/sh
+bisht:x:1005:1007::/home/bisht:/bin/sh
+newuser:x:1006:1008::/home/newuser:/bin/sh
