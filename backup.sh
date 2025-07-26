@@ -14,13 +14,13 @@ display_usage(){
 	echo "Useage: ./backup.sh <path to your source> <path to backup folder>"
 
 }
-if [ $# -eq 0 ];then
+if [ $# -eq 0 ];then # $# means parameters must not be zero
 	display_usage
 fi
 take_backup(){
-	zip -r $backup_dir/backup_$time_stamp.zip $src_dir > /dev/null
+	zip -r $backup_dir/backup_$time_stamp.zip $src_dir > /dev/null #not showing the output and sending it to black hole
 
-	if [ $? -eq 0 ]; then
+	if [ $? -eq 0 ]; then # $? means considering the above line
         echo "backup taken for $time_stamp"
 	fi	
 }
